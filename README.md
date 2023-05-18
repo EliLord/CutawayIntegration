@@ -1,0 +1,7 @@
+# Cutaway Feature Integration
+
+For this feature, the Instructional Systems Designers (ISD)'s wanted to show the user cutaway views of components at different of the training. Previously, this had been done by having the 3D artists create bespoke cross-section models, which was time consuming and limited. To save the 3D artists time and to allow more flexibility, I decided to create a tool that would allow us to easily add cutaway views to existing models alongside our in-house framework.
+
+# Design
+
+To start with, I got a very basic implementation with some shaders from a coworker on a different project. Unfortunately, that solution did not work with the framework I was using, so I had to throw most of it out, aside from the actual shaders themselves. Several frameworks are used across the company, so to avoid a repeat of this issue, I knew I had to create something universal that any developer could use no matter which project they were working on. Therefore, I made a Handler class to deal with everything specific to the framework I was using at the time (it was called Simple, in this case), and a separate, non-dependent, generic Controller class to execute the actual functionality. That way, anyone else wanting to implement a Cutaway in their project could simply modify my Handler class to fit their framework without having to worry about anything else. Aside from those two main classes, there are three small classes used to collect and organize input data from the user in the Unity editor.
