@@ -1,6 +1,6 @@
 # Cutaway Feature Integration
 
-For this feature, the Instructional Systems Designers (ISD)'s wanted to show the user cutaway views of components at different of the training. Previously, this had been done by having the 3D artists create bespoke cross-section models, which was time consuming and limited. To save the 3D artists time and to allow more flexibility, I decided to create a tool that would allow us to easily add cutaway views to existing models alongside our in-house framework.
+For this feature, the Instructional Systems Designers (ISD)'s wanted to show the user cutaway views of components at different of the training. Previously, this had been done by having the 3D artists create bespoke cross-section models, which was time consuming and limited. To save the 3D artists time and to allow more flexibility, I decided to create a tool that would allow us to easily add cutaway views to existing models alongside our in-house framework. Although this project was not classified, it is under NDA, so this is a heavily modified version of my code with redactions, renamings, and removal of context, to protect my employer's interests.
 
 # Design
 
